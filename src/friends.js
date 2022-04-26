@@ -30,4 +30,18 @@ export default [
     name: 'Bryon',
     job: 'Web Developer',
   },
+  {
+    id: 6,
+
+    img: 'https://storage.googleapis.com/production-bluehost-v1-0-0/090/1216090/iRr7Pljj/bc16aa4f79ff47cb8b805ca028b8f4be',
+    name: 'Craig',
+    job: 'Teacher',
+  },
+  {
+    id: 7,
+
+    img: 'https://scontent-bos3-1.xx.fbcdn.net/v/t1.6435-9/121498087_10158801760765960_6685312836582061068_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=xJuZz7hlsVAAX-QBgbb&_nc_ht=scontent-bos3-1.xx&oh=00_AT8SMr_elOchj9Fa0N2pD1ghj8TYRl5XlENaPt4r5eDGLw&oe=628D4894',
+    name: 'Dave',
+    job: 'Firefighter',
+  },
 ];
