@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import friends from './friends.js';
+
 const List = () => {
-  const [people, setPeople] = React.useState(friends);
+  const [people, setPeople] = useState(friends);
+  useEffect(() => {
+    console.log('call useEffect');
+    document.title = `${people.length} people`;
+  });
   const removeItem = (id) => {
     setPeople((oldList) => {
       let newList = oldList.filter((person) => person.id != id);
